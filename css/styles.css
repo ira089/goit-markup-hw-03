@@ -65,31 +65,33 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid crimson;
-  /*margin-left:  
-    margin-right: */
+  /* outline: 2px solid crimson;*/
 }
 
 /*  ===header============================================   */
 
 .header {
-  /* padding-top: 5px;
-  padding-bottom: 5px;*/
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
-.header-bottom {
+.header-cont {
   display: flex;
-  padding-left: 76px;
-  /*align-items: center;*/
+  /*padding-left: 76px;
+  align-items: center;*/
 }
 .header-nav {
   /* padding-top: 24px;*/
-  display: flex;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
   gap: 76px;
 }
 .header-menu {
-  display: flex;
+  display: inline-flex;
+  align-items: flex-start;
   gap: 40px;
 }
 .logo {
@@ -100,7 +102,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris, #4d5ae5);
-  padding: 20px 0;
+  /* padding: 20px 0;*/
 }
 
 .studio {
@@ -113,7 +115,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
-  padding: 10px 0;
+  /*padding: 10px 0;*/
 }
 
 .link-logo:hover,
@@ -121,16 +123,18 @@ img {
   color: var(--ocean, #404bbf);
 }
 .add-list {
-  display: flex;
-  margin-left: auto;
+  display: inline-flex;
   gap: 40px;
+}
+.header-add {
+  margin-left: auto;
 }
 .address {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 10px 0;
+  /* padding: 10px 0;*/
 }
 
 .address:hover,
@@ -145,9 +149,8 @@ img {
   padding-top: 188px;
   padding-bottom: 292px;
   /*width: 1440px;
-  height: 600px;*/
-
-  /*margin-bottom: 120px;*/
+  height: 600px;
+  margin-bottom: 120px;*/
 }
 
 .effect-title {
@@ -212,6 +215,7 @@ img {
 /* .section-doing  =================*/
 .section-doing {
   padding-top: 120px;
+  margin-bottom: 120px;
 }
 .title-two {
   color: var(--navyblue, #2e2f42);
@@ -230,7 +234,7 @@ img {
 /* ==============team=================== */
 .team {
   background-color: #f4f4fd;
-  /*margin-bottom: 120px;*/
+  margin-bottom: 120px;
   padding-top: 120px;
 }
 .team-wrap {
@@ -301,11 +305,6 @@ img {
 .por-list {
   display: flex;
   flex-wrap: wrap;
-  /*width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;*/
   gap: 24px;
   flex-shrink: 0;
 }
